@@ -1,0 +1,70 @@
+.about{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding-top: 20px;
+    height: 95vh;
+    width: 100%;
+    background-image: url("../components/img/DSC_1372.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;    
+    background-position: center -240px;
+    background: #B079C3;
+    position: relative;
+}
+
+.about:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../components/img/DSC_1372.jpg") center -240px / cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  }
+
+  .textAbout, h1{
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+  }
+
+.textAbout {
+    padding: 5px;
+    color: white;
+    text-shadow: 0 0 8px rgba(0,0,0,0.8);
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-family: "Open Sans", "sans-serif";
+    text-align: start;
+}
+
+.about h1{
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    font-size: 4em;
+    font-family: Oswald, "sans-serif";
+    font-weight: 300;
+}
+
+.btn-secondary {
+    background-color: #8406C8;
+    border-color: #8406C8;  
+}
+
+.btn-secondary:hover {
+    background-color: #4E2261;
+    border-color: #4E2261;  
+}
+
+@media screen and (max-width: 1460px) {
+    .about:before {
+    background-position: center 0;
+  }
+}

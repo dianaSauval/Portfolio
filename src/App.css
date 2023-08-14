@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+    max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(90deg, #4E2261, #8406C8, #af4ffe);
 }
 
-.App-link {
-  color: #61dafb;
+.mb-3 {
+    margin-bottom: 0!important;
+    padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-fluid a, .offcanvas-header, .offcanvas-body, .dropdown-item{ 
+    font-size: 1.5rem;
+    font-family: Oswald, "sans-serif";
+    font-weight: 300;  
+    color: #8406C8;
+    background-color:#F8F9FA;
 }
+
+.container-fluid a:hover{  
+    color: #4E2261;
+}
+
+
+.welcome:hover{
+    color: #8406C8 !important;
+}
+
+@media screen and (max-width: 1460px) {
+.offcanvas{
+    background-color: transparent;
+}
+
+.offcanvas-body {    
+    background-color:#4E2261;
+    color: white;
+}
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+    background-color:white;
+}
+}
+
+
