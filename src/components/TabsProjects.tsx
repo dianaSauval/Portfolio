@@ -21,6 +21,7 @@ function TabsProjects() {
           Developer career.
         </p>
         <div className="video">
+        <div className="links">
           <Link
             className="animatedLink"
             to="https://github.com/dianaSauval/digitalbooking"
@@ -28,6 +29,7 @@ function TabsProjects() {
           >
             Link to the GitHub repository
           </Link>
+          </div>
           <ReactPlayer
             url={require("./video/DigitalBooking.mp4")}
             width="60%"
