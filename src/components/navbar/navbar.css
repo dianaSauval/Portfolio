@@ -1,0 +1,21 @@
+.welcome{
+  background-color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-family: "Libre Baskerville", serif;
+    color: #8406c8;
+    padding: 10px;
+  }
+
+  .welcome:hover{
+    color: #8406c8;
+  }
+
+.container-fluid, .navbar-brand{
+  background-color: #fff;
+}
+
+.bg-body-tertiary{
+  background-color: #fff !important;
+}

@@ -1,0 +1,17 @@
+.cardProjects{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.title{
+    color: #8406C8;
+    font-size: 3.5rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: center;
+}
+

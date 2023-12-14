@@ -5,15 +5,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
-import OffcanvasExample from './components/Navbar';
+import OffcanvasExample from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-            <header className="header">
+            <header>
         <OffcanvasExample/>
       </header>
-      <body className='body'>
+      <body>
       <BrowserRouter>
       <Routes>
                 <Route

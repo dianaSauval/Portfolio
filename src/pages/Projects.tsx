@@ -1,6 +1,5 @@
-import { Tabs, Tab } from "react-bootstrap";
-import TabsProjects from "../components/TabsProjects";
 import "../styles/projects.css"
+import TabsProjects from "../components/projects/TabsProjects";
 
 function Projects() {
   return (

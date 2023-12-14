@@ -31,7 +31,7 @@ function TabsProjects() {
           </Link>
           </div>
           <ReactPlayer
-            url={require("./video/DigitalBooking.mp4")}
+            url={require("../video/DigitalBooking.mp4")}
             width="60%"
             height="100%"
             playing={true}
@@ -65,7 +65,7 @@ function TabsProjects() {
           </Link>
           </div>
           <ReactPlayer
-            url={require("./video/DH-Marvel.mkv")}
+            url={require("../video/DH-Marvel.mkv")}
             width="60%"
             height="100%"
             playing={true}
@@ -99,7 +99,7 @@ function TabsProjects() {
             </Link>
             </div>
           <ReactPlayer
-            url={require("./video/Rick-and-Morty.mkv")}
+            url={require("../video/Rick-and-Morty.mkv")}
             width="60%"
             height="100%"
             playing={true}
@@ -133,7 +133,7 @@ function TabsProjects() {
             </Link>
             </div>
           <ReactPlayer
-            url={require("./video/Simpsons.mkv")}
+            url={require("../video/Simpsons.mkv")}
             width="60%"
             height="100%"
             playing={true}

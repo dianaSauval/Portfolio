@@ -1,15 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import MenuIcon from "@mui/icons-material/Menu";
-import { Button } from "react-bootstrap";
-import "../styles/menu.css";
-import { NavLink } from "react-router-dom";
-import { stack as Menu } from "react-burger-menu";
-import Sidebar from "./SideBar/SideBar";
-import MenuDrawer from "./menu/MenuBurger";
+import MenuDrawer from "../menu/MenuBurger";
+import "./navbar.css"
 
 function OffcanvasExample() {
   return (

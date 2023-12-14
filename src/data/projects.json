@@ -1,0 +1,14 @@
+{
+    "projects":[                
+    {
+        "title":"Duo Serendipia",
+        "description":"pagina realizada para los artistas del duo serendipia",
+        "img":"https://res.cloudinary.com/dkdhdy9e5/image/upload/v1695421629/ACRODUO_31-10-22_31_mhoqo8.jpg"
+    },
+    {
+        "title":"Digital Booking",
+        "description":"pagina realizada para certified tech developer",
+        "img":"https://res.cloudinary.com/dkdhdy9e5/image/upload/v1695421629/ACRODUO_31-10-22_31_mhoqo8.jpg"
+    }
+    ]
+}
