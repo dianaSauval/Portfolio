@@ -14,9 +14,34 @@
   opacity: 0.6;
 }
 
+p, h2 {
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 0.1em;
+  text-align: start;
+}
+
 .buttonsHome {
   display: flex;
   gap: 20px;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+  height: 90vh;
+  width: 90%;
+}
+
+.text-presentation{
+  margin-top: 20px;
+  width: 90%;
+  text-align: justify;
 }
 
 .banner {
@@ -24,69 +49,156 @@
   height: 95vh;
   margin-left: auto;
   margin-right: auto;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-align: center;
-  align-items: center;
   border: 1px solid #fff;
-  box-shadow: 0 5px 5px -5px #000;
-  background: #9463C6;
-  position: relative;
+  background: #9463c6;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* position: relative; */
 }
-.banner:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../components/img/DSC_1372.jpg") center -240px / cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-}
+
 .banner__title,
 .banner__subtitle,
 .buttonsHome {
   margin: 0;
   text-transform: uppercase;
   color: #fff;
-  text-align: center;
-  position: relative;
+  /* position: relative; */
 }
 .banner__title {
   font-size: 4em;
-  font-family: Oswald, "sans-serif";
+  font-family: "Libre Baskerville", serif;
   font-weight: 300;
 }
 .banner__subtitle {
   font-size: 1.5em;
   letter-spacing: 0.1em;
-  font-family: "Open Sans", "sans-serif";
+  font-family: "Libre Baskerville", serif;
+}
+
+.welcome{
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-family: "Libre Baskerville", serif;
 }
 
 .btn-outline-primary {
-  color: #8406C8;
-  border-color: #8406C8;  
+  color: #8406c8;
+  border-color: #8406c8;
 }
 
-.btn-outline-primary:hover {  
-  background-color: #8406C8;
-  border-color: #8406C8;  
+.btn-outline-primary:hover {
+  background-color: #8406c8;
+  border-color: #8406c8;
 }
 
+.img {
+  width: 370px;
+  height: 350px;
+  margin: 5px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.networks {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  
+}
+.networks ul {
+  display: flex;
+  transform: translate(-50%, -50%);
+}
+
+.networks ul li {
+  list-style: none;
+}
+
+.networks ul li a {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+.networks ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.networks ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.networks ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.networks ul li a:hover:before {
+  top: 0;
+}
+
+.networks ul li:nth-child(1) a:before {
+  background: #0A66C2;
+}
+
+.networks ul li:nth-child(2) a:before {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+.networks ul li:nth-child(3) a:before {
+  background: #1F2328;
+}
+
+.btn-primary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #9463C6 !important;
+  border-color: #9463C6 !important;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 1460px) {
-    .banner:before {
-    background-position: center 0;
-  }
 
   .btn-outline-primary {
-    background-color: #8406C8;
-    border-color: #8406C8;
-    color: #fff;   
+    background-color: #8406c8;
+    border-color: #8406c8;
+    color: #fff;
   }
 }

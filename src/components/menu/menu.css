@@ -1,0 +1,10 @@
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    background-color: #5C2279 !important
+}
+
+span, p{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
+    font-size: 1rem !important;
+    font-family: "Libre Baskerville", serif !important;
+    letter-spacing: 0.1em !important;
+}

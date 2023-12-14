@@ -22,10 +22,11 @@ function About() {
       <div className="textAbout">
       <p>
         Hey, my name is Diana Sauval. I'm a front-end web developer from
-        Argentina. I'm also an independent circus artist.
+        Argentina.
       </p>
+      <p>I am a graduate of the Certified Tech Developer program offered by Digital House and designed by Mercado Libre and Globant.</p>
       <p>
-        I am empathetic, curious, and adaptable to change. I enjoy taking on new
+      I'm also an independent circus artist. I am empathetic, curious, and adaptable to change. I enjoy taking on new
         challenges.
       </p>      
       <Button variant="secondary" onClick={onButtonClick}>My CV</Button>
