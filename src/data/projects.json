@@ -1,14 +1,34 @@
 {
-    "projects":[                
+  "projects": [
     {
-        "title":"Duo Serendipia",
-        "description":"pagina realizada para los artistas del duo serendipia",
-        "img":"https://res.cloudinary.com/dkdhdy9e5/image/upload/v1695421629/ACRODUO_31-10-22_31_mhoqo8.jpg"
+      "title": "Duo Serendipia",
+      "description": "Dynamic project developed using React and TypeScript, powered by Material-UI (Mui) for a visually appealing and agile interface.",
+      "img": "https://res.cloudinary.com/dkdhdy9e5/image/upload/v1695563570/003_1540-NEF_DxO_DeepPRIME_ysownn.jpg",
+      "website":"https://serendipia-chi.vercel.app/"
     },
     {
-        "title":"Digital Booking",
-        "description":"pagina realizada para certified tech developer",
-        "img":"https://res.cloudinary.com/dkdhdy9e5/image/upload/v1695421629/ACRODUO_31-10-22_31_mhoqo8.jpg"
+      "title": "Digital Booking",
+      "description": "Reservation website created with React, an API built using Spring MVC, and deployed on AWS Elastic Beanstalk. Final Integrative Project of the first year in the Certified Tech Developer career.",
+      "img": "https://res.cloudinary.com/dkdhdy9e5/image/upload/v1702647552/CapturaProyecto2_dnpkgm.png",
+      "website":"https://remo-digitalbooking.click/"
+    },
+    {
+      "title": "DH-MARVEL",
+      "description": "Website developed using Typescript and Next.js technologies for the final project of Front III in the second year of the Certified Tech Developer career at Digital House.",
+      "img": "https://res.cloudinary.com/dkdhdy9e5/image/upload/v1702648927/CapturaProyectoMarvel2_uqzi3k.png",
+      "website":"https://ctd-esp-fe3-examen-final.vercel.app/"
+    },
+    {
+      "title": "Rick and Morty",
+      "description": "Website developed using Typescript and React technologies for the final project of Front-end I in the second year of the Certified Tech Developer program at Digital House.",
+      "img": "https://res.cloudinary.com/dkdhdy9e5/image/upload/v1702649080/CapturaProyectoRicy_Morty2_qh8qqg.png",
+      "website":"https://dianasauval.github.io/Rick-and-Morty/"
+    },
+    {
+      "title": "Simpsons",
+      "description": "Website developed using Typescript and React technologies for the final project of Front-end II in the second year of the Certified Tech Developer program at Digital House.",
+      "img": "https://res.cloudinary.com/dkdhdy9e5/image/upload/v1702649463/CapturaProyectoSimsons_dlqtwu.png",
+      "website":"https://dianasauval.github.io/Proyecto-Simpsons/"
     }
-    ]
+  ]
 }

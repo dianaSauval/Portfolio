@@ -1,9 +1,11 @@
 .cardProjects{
     height: 90vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .title{
@@ -12,6 +14,7 @@
     font-family: "Libre Baskerville", serif;
     font-weight: 300;
     margin-top: 10px;
+    margin-bottom: 40px;
     text-align: center;
 }
 

@@ -5,5 +5,19 @@
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
-    transition-duration: 500ms;
+    transition: all 400ms ease-out;
   }
+
+.textCard, .titleCard, .buttonCard{
+    font-family: "Libre Baskerville", serif !important;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.textModalCard p, .textModalCard h2{
+    color: black;
+}
+
+.buttonCard{
+    font-size: small;
+}

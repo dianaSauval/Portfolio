@@ -1,0 +1,19 @@
+#parent-modal-title{
+    font-size: 25px;
+    text-align: center;
+}
+
+#parent-modal-description{
+    font-size: 10px;
+    text-align: justify;
+}
+
+#buttonCross{
+    color:#8406C8;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top:-13px;
+    right: -30px;
+    padding: 5px;    
+}
